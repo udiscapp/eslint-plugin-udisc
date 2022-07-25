@@ -1,6 +1,6 @@
 # eslint-plugin-udisc
 
-UDisc&#39;s remix-specific rules
+UDisc&#39;s web and remix specific rules
 
 ## Installation
 
@@ -18,12 +18,12 @@ npm install eslint-plugin-udisc --save-dev
 
 ## Usage
 
-Add `udisc-web` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `udisc` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "udisc-web"
+        "udisc"
     ]
 }
 ```
@@ -34,13 +34,13 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "udisc-web/rule-name": 2
+        "udisc/rule-name": 2
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+* `no-multiple-await-form-data`
 
 
